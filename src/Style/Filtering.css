@@ -1,0 +1,43 @@
+.filter-system {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  
+  .filtering {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .filter-show,
+  .sort-by {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .filter-show p,
+  .sort-by p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1;
+  }
+  
+  .dropdown .btn {
+    width: 120px;
+    padding: 6px 12px;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 15px;
+  }
+  
+  .dropdown .btn:hover {
+    border: 1px solid rgb(182, 182, 182);
+    border-radius: 15px;
+  }
+  
